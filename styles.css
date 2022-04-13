@@ -50,3 +50,14 @@ header{
     padding: 15px;
 
 }
+.socials{
+    height: 80px;
+    width: 80px;
+    background-color: #101010;
+    display: flex;
+    align-items: space-between;
+}
+.socials i{
+    color: white;
+    margin: auto;
+}
