@@ -51,11 +51,12 @@ header{
 
 }
 .socials{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     background-color: #101010;
+    font-size: 24px;
     display: flex;
-    align-items: space-between;
+    justify-content: space-evenly;
 }
 .socials i{
     color: white;
