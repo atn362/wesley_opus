@@ -56,15 +56,20 @@ header{
     display: flex;
     justify-content: space-evenly;
     font-size: 35px;
-    margin-bottom: 30px;
 }
 .socials i{
     color: white;
     margin: auto;
 }
 .about_me{
-    background-color: black;
+    background-color: #101010;
     font-size: 24px;
     color: white;
+    height: 100vh;
+    width: 100vw;
 
+}
+.about_me p{
+    margin-left: 25px;
+    margin-right: 25px;
 }
