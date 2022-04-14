@@ -5,14 +5,7 @@
     text-decoration: none;
     font-family: 'Whisper', cursive;
 }
-body{
-    height: 200vh;
-    background-image: url("./images/Opus-Logo2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 
-
-}
 header{
     width: 100%;
     height: 80px;
@@ -60,17 +53,18 @@ header{
 }
 .socials{
     background-color: #101010;
-    font-size: 24px;
     display: flex;
     justify-content: space-evenly;
-    /* height: 100px;
-    width: 100px;
-    background-color: #101010;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-evenly; */
+    font-size: 35px;
+    margin-bottom: 30px;
 }
 .socials i{
     color: white;
     margin: auto;
+}
+.about_me{
+    background-color: black;
+    font-size: 24px;
+    color: white;
+
 }
