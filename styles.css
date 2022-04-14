@@ -3,7 +3,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Whisper', cursive;
 }
 
 header{
@@ -11,6 +10,8 @@ header{
     height: 80px;
     display: block;
     background-color: #101010;
+    font-family: 'Whisper', cursive;
+
 }
 .inner_header{
     width: 1000px;
@@ -18,12 +19,15 @@ header{
     display: block;
     margin: 0 auto;
     background-color: red;
+    font-family: 'Whisper', cursive;
+
 }
 
 .logo_container{
     height: 100%;
     display: table;
     float: right;
+
 }
 .logo_container h1{
     color: white;
@@ -32,6 +36,8 @@ header{
     vertical-align: middle;
     font-size: 30px;
     font-weight: 200;
+    font-family: 'Whisper', cursive;
+
 }
 .logo_container h1 span{
     font-weight: 800;
@@ -45,6 +51,8 @@ header{
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Whisper', cursive;
+
 }
 .nav, a{
     color: white;
@@ -72,4 +80,20 @@ header{
 .about_me p{
     margin-left: 25px;
     margin-right: 25px;
+    font-family: 'Akshar', sans-serif;
+}
+.examples{
+    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure{
+    margin-top: 15px;
+}
+.graphic{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
